@@ -1,0 +1,1 @@
+const btnOpen = document.getElementById("btn-open");const btnClose = document.getElementById("btn-close");const modalWindow = document.getElementById("modal-window");(function(){btnOpen.addEventListener('click',()=>{modalWindow.showModal();});btnClose.addEventListener('click', ()=>{modalWindow.close();});})();

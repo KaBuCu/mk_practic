@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-block">
+            <div class="logo-container">
+                <a class="logo-link" href="index.html">
+                    <img class="logo-icon" src="./assets/img/robot.svg" alt="Logo">
+                    <span class="logo-text">Робототехника</span>
+                </a>
+            </div>
+
+            <ul class="navbar">
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">
+                        О нас
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">
+                        Прайс-лист
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="register.html">
+                        Записаться
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">
+                        Личный кабинет
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+        <main class="main-block">
+            <section class="content-container">
+                <h3 class="content-header">
+                    Записаться в группу
+                </h3>
+
+                <h4 class="content-subtitle">
+                    Изучать роботов никогда не поздно!
+                </h4>
+
+                <form class="form-container" action="#" method="post">
+                    <div class="form-item">
+                        <label class="form-label" for="firstname">
+                            Ваше имя / Имя ребёнка
+                        </label>
+                        <input class="form-input" type="text" name="firstname" id="firstname" placeholder="Иван">
+                    </div>
+
+                    <div class="form-item">
+                        <label class="form-label" for="phone">
+                            Контактный номер телефона
+                        </label>
+                        <input class="form-input" type="text" name="phone" id="phone" placeholder="+7(000) 000 00 00">
+                    </div>
+
+                    <div class="form-buttons">
+                        <button class="btn btn-primary" type="button" id="btn-open">
+                            Записаться
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <dialog class="modal-container" id="modal-window">
+                <div class="modal-block">
+                    <div class="modal-text">
+                        <h3 class="modal-title">
+                            Спасибо за оставленный запрос
+                            в набор нашей группы
+                        </h3>
+                        <small class="modal-small">
+                            Ожидайте звонка от оператора
+                        </small>
+                    </div>
+
+                    <div class="button-groups">
+                        <button class="btn btn-primary" type="button" id="btn-close">
+                            Свернуть
+                        </button>
+                    </div>
+                </div>
+            </dialog>
+        </main>
+
+        <footer class="footer-block">
+            <ul class="navbar footer-navbar">
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">
+                        <img src="./assets/img/vkontacte.svg" alt="VK">
+                        Robotics_TMB
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">
+                        <img src="./assets/img/telegram.svg" alt="VK">
+                        Robotics_TMB
+                    </a>
+                </li>
+                <li class="navbar-item navbar-copyright">
+                    <a class="navbar-link" href="#">
+                        &copy; Robotics 2023
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
